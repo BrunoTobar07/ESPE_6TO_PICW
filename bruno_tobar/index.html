@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bruno A. Tobar Iguasnia — CV</title>
+  <link rel="stylesheet" href="./style.css" />
+  <meta name="description" content="Hoja de vida interactiva de Bruno Alejandro Tobar Iguasnia.">
+</head>
+
+<body>
+  <a class="sr-only" href="#contenido">Saltar al contenido</a>
+
+  <header class="container header" role="banner">
+    <img class="avatar" src="./assets/img/perfil.jpg" alt="Foto de perfil de Bruno Alejandro Tobar Iguasnia">
+    <div>
+      <h1 class="title">Bruno Alejandro Tobar Iguasnia</h1>
+      <p class="role">Estudiante de Ingeniería en Tecnologías de la Información  </p>
+      <p class="contacts">
+        Quito, Ecuador · <a href="tel:+593983135194">+593 98 313 5194</a> ·
+        <a href="mailto:batobar@espe.edu.ec">batobar@espe.edu.ec</a> ·
+        <a href="mailto:tobabruno07ux@gmail.com">tobabruno07ux@gmail.com</a>
+      </p>
+
+      <nav aria-label="Secciones del CV">
+        <ul class="tabs">
+          <li><a href="#perfil">Perfil</a></li>
+          <li><a href="#formacion">Formación</a></li>
+          <li><a href="#proyectos">Proyectos</a></li>
+          <li><a href="#habilidades">Habilidades</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido" class="container main" role="main">
+    <!-- PERFIL -->
+    <section id="perfil" class="card" aria-labelledby="perfil-t">
+      <button class="card__head" id="perfil-t" aria-expanded="true" aria-controls="perfil-b">
+        Perfil profesional <span class="chev" aria-hidden="true">▾</span>
+      </button>
+      <div class="card__body" id="perfil-b" role="region" aria-labelledby="perfil-t">
+        <p>
+          Estudiante de Ingeniería en Tecnologías de la Información (ESPE) con interés en
+          desarrollo web, administración de sistemas y documentación técnica. Me caracterizo por
+          la responsabilidad, liderazgo en equipo y aprendizaje autónomo. Busco aplicar
+          conocimientos en proyectos reales aportando soluciones prácticas y escalables.
+        </p>
+      </div>
+    </section>
+
+    <!-- FORMACIÓN -->
+    <section id="formacion" class="card" aria-labelledby="formacion-t">
+      <button class="card__head" id="formacion-t" aria-expanded="true" aria-controls="formacion-b">
+        Formación académica <span class="chev" aria-hidden="true">▾</span>
+      </button>
+      <div class="card__body" id="formacion-b" role="region" aria-labelledby="formacion-t">
+        <article class="item">
+          <h3 class="item__title">Universidad de las Fuerzas Armadas ESPE — Quito</h3>
+          <p class="item__meta"><strong>Ingeniería en Tecnologías de la Información</strong> · 2022 – Actualidad</p>
+        </article>
+        <article class="item">
+          <h3 class="item__title">Unidad Educativa Julio María Matovelle — Quito</h3>
+          <p class="item__meta"><strong>Bachillerato en Ciencias</strong> · 2022</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- EXPERIENCIA / PROYECTOS -->
+    <section id="proyectos" class="card" aria-labelledby="proyectos-t">
+      <button class="card__head" id="proyectos-t" aria-expanded="true" aria-controls="proyectos-b">
+        Experiencia y proyectos personales <span class="chev" aria-hidden="true">▾</span>
+      </button>
+      <div class="card__body" id="proyectos-b" role="region" aria-labelledby="proyectos-t">
+        <div class="grid">
+          <article class="project">
+            <h3 class="project__title">Plan de Recuperación ante Desastres (DRP) — Mega Puertas Blindex</h3>
+            <p class="project__desc">
+              Diseño del DRP: análisis de riesgos, políticas de respaldo, tiempos objetivo de recuperación (RTO/RPO)
+              y protocolo de continuidad del negocio.
+            </p>
+            <ul class="tags">
+              <li class="tag">Infraestructura</li>
+              <li class="tag">Documentación técnica</li>
+            </ul>
+          </article>
+
+          <article class="project">
+            <h3 class="project__title">Procesamiento de Imágenes con SVD — Proyecto personal</h3>
+            <p class="project__desc">
+              Compresión y transformación cromática mediante factorización en valores singulares; integración de
+              conceptos de álgebra lineal en software.
+            </p>
+            <ul class="tags">
+              <li class="tag">Álgebra Lineal</li>
+              <li class="tag">Python/Matlab</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- HABILIDADES -->
+    <section id="habilidades" class="card" aria-labelledby="habilidades-t">
+      <button class="card__head" id="habilidades-t" aria-expanded="true" aria-controls="habilidades-b">
+        Habilidades técnicas y blandas <span class="chev" aria-hidden="true">▾</span>
+      </button>
+      <div class="card__body" id="habilidades-b" role="region" aria-labelledby="habilidades-t">
+        <h3 class="sub">Técnicas</h3>
+        <div class="chips" id="skills-tech">
+          <span class="chip" data-skill>HTML</span>
+          <span class="chip" data-skill>CSS</span>
+          <span class="chip" data-skill>JavaScript</span>
+          <span class="chip" data-skill>PHP</span>
+          <span class="chip" data-skill>PostgreSQL</span>
+          <span class="chip" data-skill>Documentación</span>
+        </div>
+
+        <h3 class="sub">Blandas</h3>
+        <div class="chips" id="skills-soft">
+          <span class="chip" data-skill>Liderazgo</span>
+          <span class="chip" data-skill>Comunicación</span>
+          <span class="chip" data-skill>Resolución de problemas</span>
+          <span class="chip" data-skill>Adaptabilidad</span>
+          <span class="chip" data-skill>Autonomía</span>
+        </div>
+
+        <h3 class="sub">Idiomas</h3>
+        <p>Español (nativo) · Inglés (intermedio/lectura técnica)</p>
+      </div>
+    </section>
+
+    <!-- ENLACES / CONTACTO -->
+    <section id="contacto" class="card" aria-labelledby="contacto-t">
+      <button class="card__head" id="contacto-t" aria-expanded="true" aria-controls="contacto-b">
+        Enlaces y contacto <span class="chev" aria-hidden="true">▾</span>
+      </button>
+      <div class="card__body" id="contacto-b" role="region" aria-labelledby="contacto-t">
+        <ul class="links">
+          <li>GitHub: <a href="https://github.com/BrunoTobar07" target="_blank" rel="noopener">https://github.com/BrunoTobar07</a></li>
+          <li>LinkedIn: <a href="https://www.linkedin.com/in/bruno-tobar-55ab83360/" target="_blank" rel="noopener">https://www.linkedin.com/in/bruno-tobar-55ab83360/</a></li>
+          <li>Correo institucional: <a href="mailto:batobar@espe.edu.ec">batobar@espe.edu.ec</a></li>
+          <li>Correo personal: <a href="mailto:tobabruno07ux@gmail.com">tobabruno07ux@gmail.com</a></li>
+          <li>Teléfono: <a href="tel:+593983135194">+593 98 313 5194</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="container footer" role="contentinfo">
+    <p>© <span id="year"></span> Bruno A. Tobar Iguasnia — CV  </p>
+  </footer>
+
+  <script src="./script.js" defer></script>
+</body>
+</html>
